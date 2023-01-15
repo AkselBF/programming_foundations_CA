@@ -2,10 +2,12 @@
   list accessed from array
 */
 
-const names = ["first", "second", "third", "fourth"]; // Array
-let type = "someone";  // String
-let average_age = 20; // Number
-let test = true; // Boolean
-
-//function
-function listing(names, type, test) {}
+const car = {
+  brand: "Opel",
+  speed: 0,
+  start: false,
+  gear: ["neutral", "first", "second", "third"],
+  ignition: function() {
+    car.start = !car.start;
+  }
+}
